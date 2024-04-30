@@ -22,7 +22,16 @@ public class CheckDigit
    */     
    public static boolean isValid(int numWithCheckDigit)    
    {      
-     /* to be implemented in part (b) */    
+     /* to be implemented in part (b) */
+     int w= getCheck(numWithCheckDigiit);
+     for (int i=0; i<getNumOfDigits:i++){
+       if (numWithCheckDigit==w)
+         return true;
+       else w/10;
+       
+     }
+     return false;
+     
    }    
    
    /** Returns the number of digits in num. */    
